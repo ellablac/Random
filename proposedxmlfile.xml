@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- Whatever header information needed to be attached by infrastructure -->
+
+<!-- Body -->
+<cycle>
+  <time>5897</time>
+  <hexes>
+    <hex>
+      <number>510</number>
+      <radiation>false</radiation>
+      <mined>false</mined>
+      <planets>
+        <planet>
+          <number>324</number>
+          <owner>Player 2</owner>
+          <homeworld_owner>Player 1</homeworld_owner>
+          <benefits>Double RP per round</benefits>
+          <type>C</type>
+          <tech_level>4</tech_level>
+          <rp>50</rp>
+          <satellites>
+            <unit>
+              <number>675822</number>
+              <u_number></u_number>
+              <type>Sensor Satellite</type>
+              <disabled>false</disabled>
+              <traversed>0</traversed>
+              <rp></rp>
+              <sub_units></sub_units>
+            </unit>
+            <unit>
+              <number>412563</number>
+              <u_number></u_number>
+              <type>Sensor Satellite</type>
+              <disabled>false</disabled>
+              <traversed>0</traversed>
+              <rp></rp>
+              <sub_units></sub_units>
+            </unit>
+            <unit>
+              <number>772368</number>
+              <u_number></u_number>
+              <type>Planetary Defense</type>
+              <disabled>false</disabled>
+              <traversed></traversed>
+              <rp></rp>
+              <sub_units>
+                <unit>
+                  <number>326199</number>
+                  <u_number></u_number>
+                  <type>Fighter</type>
+                  <disabled>false</disabled>
+                  <traversed>0</traversed>
+                  <rp></rp>
+                  <sub_units></sub_units>
+                </unit>
+              </sub_units>
+            </unit>
+            <!-- more satellites in orbit if needed -->
+          </satellites>
+          <stockpiles>
+            <unit>
+              <number>635521</number>
+              <u_number></u_number>
+              <type>Fast Transport</type>
+              <disabled>false</disabled>
+              <traversed>0</traversed>
+              <rp></rp>
+              <sub_units></sub_units>
+            </unit>
+            <unit>
+              <number>469852</number>
+              <u_number></u_number>
+              <type>Scout</type>
+              <disabled>false</disabled>
+              <traversed>0</traversed>
+              <rp></rp>
+              <sub_units></sub_units>
+            </unit>
+            <!-- more units in stockpile if needed -->
+          </stockpiles>
+        </planet>
+        <!-- more planets in same hex if needed -->
+      </planets>
+      <fleets>
+        <fleet>
+          <number>648</number>
+          <f_number>1</f_number>
+          <!-- <speed>2</speed>
+          not stored in database: derived based on ships,
+          should be an algorithm in game development -->
+          <duo>HC,CS,LC,MS</duo>
+          <eduo>OX,CS,BS</eduo>
+          <fduo>LX,BS,CA</fduo>
+          <retreat_offensive>SAVE YOUR SKIN</retreat_offensive>
+          <retreat_defensive>ORDERLY</retreat_defensive>
+          <retreat_offensive_odds>1:3</retreat_offensive_odds>
+          <retreat_defensive_odds>3:1</retreat_defensive_odds>
+          <intercept>false</intercept>
+          <units>
+            <unit>
+              <number>498603</number>
+              <u_number>1</u_number>
+              <type>Transport</type>
+              <disabled>false</disabled>
+              <traversed>4</traversed>
+              <rp>20</rp>
+              <sub_units></sub_units>
+            </unit>
+            <unit>
+              <number>498444</number>
+              <u_number>1</u_number>
+              <type>Scout</type>
+              <disabled>true</disabled>
+              <traversed>5</traversed>
+              <rp></rp>
+              <sub_units></sub_units>
+            </unit>
+            <unit>
+              <number>498555</number>
+              <u_number>2</u_number>
+              <type>Scout</type>
+              <disabled>false</disabled>
+              <traversed>2</traversed>
+              <rp></rp>
+              <sub_units></sub_units>
+            </unit>
+            <!-- more units if needed in fleet,
+            organization algorithm left up to game development -->
+          </units>
+        </fleet>
+        <!-- more fleets in hex if needed -->
+      </fleets>
+      <visitors>
+        <visitor>Player 1</visitor>
+        <visitor>Player 2</visitor>
+        <visitor>Player 5</visitor>
+        <!-- more visitors if needed -->
+      </visitors>
+    </hex>
+  </hexes>
+</cycle>
+<!-- /Body -->
